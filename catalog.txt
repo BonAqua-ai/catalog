@@ -1,1 +1,27 @@
+# ==========================================
+# ПРИМЕР КАТАЛОГА ПРОГРАММ
+# Строки, начинающиеся с #, игнорируются
+# ==========================================
 
+[CATEGORY] Браузеры и Интернет
+[WINGET] Google Chrome|Google.Chrome||
+[WINGET] Mozilla Firefox|Mozilla.Firefox||
+[DIRECT] Yandex Browser|https://download.yandex.ru/browser/Yandex.exe|yandex.exe|/S
+
+[CATEGORY] Утилиты и Система
+[WINGET] 7-Zip|7zip.7zip||
+[WINGET] Notepad++|Notepad++.Notepad++||
+[WINGET] Everything|voidtools.Everything|1.4.1.1032|
+[DIRECT] Sparkle|https://github.com/thedogecraft/sparkle/releases/download/2.25.0/sparkle-2.25.0-setup.exe|sparkle-setup.exe|/VERYSILENT /NORESTART
+
+[CATEGORY] Библиотеки (Runtimes)
+[WINGET] .NET Desktop Runtime 8|Microsoft.DotNet.DesktopRuntime.8||
+[WINGET] .NET SDK 10|Microsoft.DotNet.SDK.10||
+[DIRECT] Visual C++ x64|https://aka.ms/vs/17/release/vc_redist.x64.exe|vc_redist.x64.exe|/install /quiet /norestart
+[DIRECT] Visual C++ x86|https://aka.ms/vs/17/release/vc_redist.x86.exe|vc_redist.x86.exe|/install /quiet /norestart
+[DIRECT] DirectX Runtime|https://download.microsoft.com/download/1/7/1/1718CCC4-6315-4D8E-9543-8E28A4E18C4C/dxwebsetup.exe|dxwebsetup.exe|/Q
+
+[CATEGORY] Игры и Общение
+[WINGET] Steam|Valve.Steam||
+[WINGET] Discord|Discord.Discord||
+[WINGET] OBS Studio|OBSProject.OBSStudio||
