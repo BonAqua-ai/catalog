@@ -1,1 +1,14 @@
-
+{
+  "categories": [
+    {
+      "name": "System Utilities",
+      "applications": [
+        {
+          "name": "Microsoft PowerToys",
+          "type": "winget",
+          "id": "Microsoft.PowerToys"
+        }
+      ]
+    }
+  ]
+}
